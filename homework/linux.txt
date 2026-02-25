@@ -1,37 +1,37 @@
- Wed 25 Feb - 19:11  ~/Documents/coders-school/linux/assignment-1 
+ Wed 25 Feb - 19:17  ~/Documents/coders-school/linux/assignment-1 
  @phil  cat selected.txt commands.txt
-402
+377
 209:dbus         639  0.0  0.0   8628  4220 ?        Ss   13:23   0:00 /usr/bin/dbus-broker-launch --scope system --audit
 212:root         642  0.0  0.1 565392 26500 ?        Ssl  13:23   0:04 /usr/bin/NetworkManager --no-daemon
 215:root         691  0.0  0.0  17448 12708 ?        Ss   13:23   0:03 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
 216:root         702  0.0  0.1 158664 20264 ?        Ssl  13:23   0:00 /usr/bin/sddm
-217:root         704  0.0  0.3 2527948 54516 ?       Ssl  13:23   0:10 /usr/bin/containerd
+217:root         704  0.0  0.3 2527948 54524 ?       Ssl  13:23   0:10 /usr/bin/containerd
 221:root         839  0.0  0.4 2720212 77408 ?       Ssl  13:24   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 225:phil        1158  0.0  0.0   8156  3920 ?        Ss   13:24   0:00 /usr/bin/dbus-broker-launch --scope user
-227:phil        1160  0.4  0.1 107156 17540 ?        S<sl 13:24   1:35 /usr/bin/pipewire
+227:phil        1160  0.4  0.1 107764 19116 ?        S<sl 13:24   1:38 /usr/bin/pipewire
 228:phil        1161  0.0  0.1 482872 22732 ?        S<sl 13:24   0:05 /usr/bin/wireplumber
 229:phil        1162  0.0  0.0   7572  5576 tty1     Ss+  13:24   0:00 /usr/bin/sh /usr/lib/uwsm/signal-handler.sh wayland-session-envelope@hyprland.desktop.target
 235:phil        1251  0.0  0.0  15996  4512 ?        Ssl  13:24   0:00 /usr/bin/start-hyprland
 249:phil        1343  0.0  0.4 715820 66116 ?        Sl   13:24   0:00 /usr/bin/python /usr/bin/blueman-applet
 258:phil        1478  0.0  0.0   8156  3876 ?        S    13:24   0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
-267:phil        1665  0.7  0.1 186668 25956 ?        S<Lsl 13:24   2:30 /usr/bin/pipewire-pulse
+267:phil        1665  0.7  0.2 187116 31280 ?        S<Lsl 13:24   2:34 /usr/bin/pipewire-pulse
 268:phil        1680  0.0  0.1 2138916 27524 ?       Sl   13:24   0:00 /usr/bin/kitten __atexit__
 269:phil        1684  0.0  0.0  11256  9168 pts/0    Ss+  13:24   0:00 /usr/bin/zsh
 271:phil        1765  0.0  0.3 559416 53308 ?        Sl   13:24   0:13 /usr/bin/python /usr/bin/blueman-tray
-313:phil      119995  0.0  0.1 2065184 27776 ?       Sl   18:47   0:00 /usr/bin/kitten __atexit__
-314:phil      120002  0.1  0.0  12088 10060 pts/2    Ss   18:47   0:02 /usr/bin/zsh
- 2868  wc -l < processes.txt > selected.txt
- 2869  grep "/bin" processes.txt >> selected.txt
- 2870  history | tail -n 10 > commands.txt
- 2871  cat selected.txt commands.txt
- 2872  ls
- 2873  cd ..
- 2874  rm -rf assignment-1
- 2875  mkdir assignment-1
- 2876  cd assignment-1
- 2877  ps aux > processes.txt
- 2878  cp processes.txt copy.txt
- 2879  mkdir backup
- 2880  mv copy.txt backup/
- 2881  wc -l < processes.txt > selected.txt
- 2882  grep -n "/bin" processes.txt >> selected.txt
+308:phil      119995  0.0  0.1 2065184 27744 ?       Sl   18:47   0:00 /usr/bin/kitten __atexit__
+309:phil      120002  0.1  0.0  12088 10088 pts/2    Ss   18:47   0:02 /usr/bin/zsh
+ 2883  history | tail -n 15 > commands.txt
+ 2884  cat selected.txt commands.txt
+ 2885  cd ..
+ 2886  rm -rf assignment-1
+ 2887  ls
+ 2888  clear
+ 2889  mkdir assignment-1
+ 2890  cd assignment-1
+ 2891  touch processes.txt
+ 2892  ps aux > processes.txt
+ 2893  cp processes.txt copy.txt
+ 2894  mkdir backup
+ 2895  mv copy.txt backup/
+ 2896  wc -l < processes.txt > selected.txt
+ 2897  grep -n "/bin" processes.txt >> selected.txt
