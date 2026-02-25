@@ -1,26 +1,32 @@
- @phil  cat selected.txt commands.txt 
-430
+ Wed 25 Feb - 19:04  ~/Documents/coders-school/linux/assignment-1 
+ @phil  cat selected.txt commands.txt
+431
 dbus         639  0.0  0.0   8628  4220 ?        Ss   13:23   0:00 /usr/bin/dbus-broker-launch --scope system --audit
-root         642  0.0  0.1 565392 26500 ?        Ssl  13:23   0:03 /usr/bin/NetworkManager --no-daemon
+root         642  0.0  0.1 565392 26500 ?        Ssl  13:23   0:04 /usr/bin/NetworkManager --no-daemon
 root         691  0.0  0.0  17448 12708 ?        Ss   13:23   0:03 /usr/bin/wpa_supplicant -u -s -O /run/wpa_supplicant
 root         702  0.0  0.1 158664 20264 ?        Ssl  13:23   0:00 /usr/bin/sddm
-root         704  0.0  0.3 2527948 54504 ?       Ssl  13:23   0:09 /usr/bin/containerd
-root         839  0.0  0.4 2720212 77400 ?       Ssl  13:24   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root         704  0.0  0.3 2527948 54512 ?       Ssl  13:23   0:09 /usr/bin/containerd
+root         839  0.0  0.4 2720212 77408 ?       Ssl  13:24   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 phil        1158  0.0  0.0   8156  3920 ?        Ss   13:24   0:00 /usr/bin/dbus-broker-launch --scope user
-phil        1160  0.4  0.1 107308 18436 ?        S<sl 13:24   1:27 /usr/bin/pipewire
-phil        1161  0.0  0.1 482872 22732 ?        S<sl 13:24   0:04 /usr/bin/wireplumber
+phil        1160  0.4  0.1 107308 18452 ?        S<sl 13:24   1:32 /usr/bin/pipewire
+phil        1161  0.0  0.1 482872 22732 ?        S<sl 13:24   0:05 /usr/bin/wireplumber
 phil        1162  0.0  0.0   7572  5576 tty1     Ss+  13:24   0:00 /usr/bin/sh /usr/lib/uwsm/signal-handler.sh wayland-session-envelope@hyprland.desktop.target
 phil        1251  0.0  0.0  15996  4512 ?        Ssl  13:24   0:00 /usr/bin/start-hyprland
 phil        1343  0.0  0.4 715820 66116 ?        Sl   13:24   0:00 /usr/bin/python /usr/bin/blueman-applet
 phil        1478  0.0  0.0   8156  3876 ?        S    13:24   0:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
-phil        1665  0.7  0.1 186828 26564 ?        S<Lsl 13:24   2:18 /usr/bin/pipewire-pulse
+phil        1665  0.7  0.1 186828 26532 ?        S<Lsl 13:24   2:26 /usr/bin/pipewire-pulse
 phil        1680  0.0  0.1 2138916 27524 ?       Sl   13:24   0:00 /usr/bin/kitten __atexit__
 phil        1684  0.0  0.0  11256  9168 pts/0    Ss+  13:24   0:00 /usr/bin/zsh
-phil        1765  0.0  0.3 559416 53308 ?        Sl   13:24   0:12 /usr/bin/python /usr/bin/blueman-tray
-phil      119995  0.0  0.1 2065184 27404 ?       Sl   18:47   0:00 /usr/bin/kitten __atexit__
-phil      120002  0.1  0.0  11892  9812 pts/2    Ss   18:47   0:00 /usr/bin/zsh
- 2851  mv copy.txt backup
- 2852  wc processes.txt
- 2853  wc -l < processes.txt > selected.txt
- 2854  grep "/bin" processes.txt >> selected.txt
- 2855  history
+phil        1765  0.0  0.3 559416 53308 ?        Sl   13:24   0:13 /usr/bin/python /usr/bin/blueman-tray
+phil      119995  0.0  0.1 2065184 27776 ?       Sl   18:47   0:00 /usr/bin/kitten __atexit__
+phil      120002  0.1  0.0  12088 10044 pts/2    Ss   18:47   0:01 /usr/bin/zsh
+ 2860  ls
+ 2861  rm -rf assignment-1
+ 2862  mkdir assignment-1
+ 2863  cd assignment-1
+ 2864  ps aux > processes.txt
+ 2865  cp processes.txt copy.txt
+ 2866  mkdir backup
+ 2867  mv copy.txt backup
+ 2868  wc -l < processes.txt > selected.txt
+ 2869  grep "/bin" processes.txt >> selected.txt
